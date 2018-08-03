@@ -11,4 +11,14 @@ clothing deals
 - "product-card__name": name in plaintext
 - product-card__price": price in plaintext, and other promos
 
+### Adidas
+- all products (not all on one page though): https://www.adidas.com/us/search
+- products are contained in a div in id="product_grid"/id="hc-container"
+- <div class="product-title"> for each product
+- inside this div you can find:
+-- class="product-info-inner-content": contains product name in field "data-productname"
+-- class="price": contains price in "data-context"
+-- class="image": contains link at <img ... src> 
+-- also class="color-count>: contains available colors
+
 by John Na and Edward Tu
