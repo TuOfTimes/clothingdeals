@@ -12,7 +12,7 @@ clothing deals
 - product-card__price": price in plaintext, and other promos
 
 ### Adidas
-- all products (not all on one page though): https://www.adidas.com/us/search
+- all products (not all on one page though): https://www.adidas.com/us/men?grid=true
 - products are contained in a div in id="product_grid"/id="hc-container"
 - <div class="product-title"> for each product
 - inside this div you can find:
